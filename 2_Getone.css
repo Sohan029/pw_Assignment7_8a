@@ -1,0 +1,198 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+@media screen and (min-width: 800px) {
+  main {
+    width: 100%;
+    }
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: black;
+    width: 100%;
+  }
+  .logo {
+    height: 2rem;
+    width: 2rem;
+    background-image: url(./assets/logo.webp);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  .options {
+    width: 20rem;
+    height: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  a {
+    text-decoration: none;
+    color: aliceblue;
+  }
+  .login button {
+    padding: 0.3rem 1.8rem;
+    background-color: #3c8aea;
+    color: aliceblue;
+    border-radius: 10%;
+  }
+  .menu {
+    display: none;
+  }
+  .contentVideo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5rem auto;
+    width: 98%;
+    gap: 2rem;
+  }
+  .content {
+    width: 40%;
+  }
+  .getVideo {
+    width: 40%;
+    margin: 0 auto;
+    border: 0;
+    outline: 0;
+  }
+  .sayhi {
+    font-size: xx-large;
+    font-family: "Roboto", sans-serif;
+    margin-bottom: 1.5rem;
+    font-weight: 600;
+  }
+  .card {
+    font-size: 4rem;
+    color: #1893f7;
+    font-weight: bold;
+    font-family: "roboto", sans-serif;
+    margin-bottom: 1.5rem;
+  }
+  .issuers {
+    font-size: larger;
+    font-family: "roboto", sans-serif;
+    color: #1893f7;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+  }
+  .content img{
+    margin-bottom: 1.5rem;
+  }
+  .content p {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    word-spacing: 0.1rem;
+    color: black;
+    font-weight: 400;
+  }
+  .footer{
+    background-color: black;
+    color: aliceblue;
+  }
+  .footer h1{
+    color:#383cc1;
+  }
+}
+
+
+/* ====================================================
+                Small Screen
+   ====================================================
+*/
+
+@media screen and (max-width: 800px) {
+  main {
+    width: 100%;
+    }
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: black;
+    width: 100%;
+  }
+  .logo {
+    height: 2rem;
+    width: 2rem;
+    background-image: url(./assets/logo.webp);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  .options {
+    width: 20rem;
+    height: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    display: none;
+  }
+  a {
+    text-decoration: none;
+    color: aliceblue;
+  }
+  .login{
+    display: none;
+  }
+  .login button {
+    padding: 0.3rem 1.8rem;
+    background-color: #3c8aea;
+    color: aliceblue;
+    border-radius: 10%;
+  }
+  .fa-bars {
+    color: aliceblue;
+    font-size: 1.5rem;
+  }
+  .contentVideo {
+    margin: 5rem auto;
+    width: 98%;
+    gap: 2rem;
+  }
+  .content {
+    width: 95%;
+    margin: 0 auto;
+    }
+  .getVideo {
+    width: 95%;
+    margin: 0 auto;
+  }
+  .sayhi {
+    font-size: xx-large;
+    font-family: "Roboto", sans-serif;
+    margin-bottom: 1.5rem;
+    font-weight: 600;
+  }
+  .card {
+    font-size: 4rem;
+    color: #1893f7;
+    font-weight: bold;
+    font-family: "roboto", sans-serif;
+    margin-bottom: 1.5rem;
+  }
+  .issuers {
+    font-size: larger;
+    font-family: "roboto", sans-serif;
+    color: #1893f7;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+  }
+  .content img{
+    margin-bottom: 1.5rem;
+  }
+  .content p {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    word-spacing: 0.1rem;
+    color: black;
+    font-weight: 400;
+    margin-bottom: 5rem;
+  }
+}

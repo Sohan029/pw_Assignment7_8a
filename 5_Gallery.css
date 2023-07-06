@@ -1,0 +1,103 @@
+*{
+    box-sizing: border-box;
+}
+.gallery{
+    text-align: center;
+    border: 2px solid;
+    width: 80%;
+    margin: 5rem auto;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(3,30%);
+    width: 100%;
+    height: 50rem;
+    gap: 2rem;
+    padding: 2rem;
+    padding-top: 0rem;
+    margin: 0 auto;
+   
+}
+.Photo{
+    border-radius: 5%;
+    border: 2px solid;
+
+}
+
+.photo-1{
+    background-image: url(./assets/pic1.webp);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.photo-2{
+    background-image: url(./assets/pic2.webp);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.photo-3{
+    background-image: url(./assets/pic3.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.photo-4{
+    background-image: url(./assets/pic4.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.photo-5{
+    background-image: url(./assets/pic5.webp);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.photo-6{
+    background-image: url(./assets/pic6.jpeg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.photo-7{
+    background-image: url(./assets/feature1.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.photo-8{
+    background-image: url(./assets/feature2.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.photo-9{
+    background-image: url(./assets/feature3.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+/* =================================================================================
+                    TWO LEVEL
+===================================================================================*/
+
+@media screen and (max-width:1000px) {
+    .container{
+        grid-template-columns: repeat(2,47%);
+        /* grid-template-rows: repeat(5,1fr); */
+        height: 90rem;
+    }
+}
+
+/* ====================================================================================
+                     THREE LEVEL
+========================================================================================*/
+
+@media screen and (max-width:700px) {
+    .container{
+        grid-template-columns: repeat(1,97%);
+        /* grid-template-rows: repeat(9,1fr); */
+        height: 150rem;
+    }
+}

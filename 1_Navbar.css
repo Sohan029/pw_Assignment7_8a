@@ -1,0 +1,67 @@
+@media screen and (min-width:800px) {
+    nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem;
+        background-color: black;
+    }
+    .logo{
+        height: 2rem;
+        width: 2rem;
+        background-image: url(./assets/logo.webp);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    .options{
+        width: 20rem;
+        height: 2rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    a{
+        text-decoration: none;
+        color: aliceblue;
+    }
+    .login button{
+        padding: 0.3rem 1.8rem;
+        background-color: #3c8aea;
+        color: aliceblue;
+        border-radius: 10%;
+    }
+    .menu{
+        display: none;
+    }
+}
+
+@media screen and (max-width:800px) {
+    nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem;
+        background-color: black;
+    }
+    .logo{
+        height: 2rem;
+        width: 2rem;
+        background-image: url(./assets/logo.webp);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    .options{
+        display: none;
+    }
+    .login{
+        display: none;
+    }
+    
+    .fa-bars{
+        color: aliceblue;
+        font-size: 1.5rem;
+    }
+
+}

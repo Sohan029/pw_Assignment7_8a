@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.flex {
+  display: flex;
+}
+
+.container {
+  justify-content: space-between;
+  align-items: start;
+  width: 100%;
+  padding: 4rem 1rem;
+  background-color: rgb(36, 35, 35);
+  color: aliceblue;
+  gap: 1.5rem;
+  position: absolute;
+  bottom: 0;
+}
+
+.oneCard {
+  width: 30%;
+}
+.newsLetter {
+  width: 30%;
+}
+
+.heading {
+  font-size: 1.5rem;
+  font-family: "poppins", sans-serif;
+  font-weight: 400;
+  margin-bottom: 1rem;
+}
+.oneCard p {
+  line-height: 2;
+  font-family: "Roboto", sans-serif;
+}
+div a {
+  text-decoration: none;
+  color: aliceblue;
+  font-size: 1rem;
+  line-height: 2rem;
+  font-family: "Roboto", sans-serif;
+}
+div a:hover {
+  color: rgb(127, 224, 244);
+}
+
+.email input {
+  padding-block: 1rem;
+  padding-inline: 0.5rem;
+  width: 100%;
+  border-radius: 7px;
+  margin: 1rem 0rem;
+  font-family: "Roboto", sans-serif;
+}
+.subscribe button {
+  width: 100%;
+  padding-block: 1rem;
+  padding-inline: 0.5rem;
+  border-radius: 7px;
+  background-color: #03b1f6;
+  color: aliceblue;
+  font-size: large;
+  font-family: "Roboto", sans-serif;
+}
+
+@media screen and (max-width: 850px) {
+  .container {
+    min-height: 200vh;
+    flex-direction: column;
+    overflow:scroll;
+    top: 2rem;
+    bottom: 0;
+  }
+  .heading {
+    margin-top: 2rem;
+  }
+
+  .oneCard {
+    width: 90%;
+  }
+  .newsLetter {
+    width: 90%;
+  }
+}
